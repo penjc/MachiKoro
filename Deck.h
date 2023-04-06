@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
 #include <iostream>
-#include "Cartes.h"
-#include "Cartes_bleu.h"
+#include "Cards.h"
+#include "Cards_blue.h"
 #include "Cartes_vert.h"
 #include "Cartes_rouge.h"
 #include "Cartes_violet.h"

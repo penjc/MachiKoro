@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
-#include "Cartes.h"
-#include "Banque.h"
+#include "Cards.h"
+#include "Bank.h"
 #include "Deck.h"
 #include "Singleton.h"
 

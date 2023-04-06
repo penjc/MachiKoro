@@ -1,20 +1,20 @@
-#include "Banque.h"
+#include "Bank.h"
 
-Banque::Banque()
+Bank::Bank()
 {
 	coins = 3;
 }
-int Banque::get_coins()
+int Bank::get_coins()
 {
 	return coins;
 }
-//玩家得到金币
-void Banque::deposit(int val)
+
+void Bank::deposit(int val)
 {
 	coins += val;
 }
-//玩家消耗金币
-int Banque::withdraw(int val)
+
+int Bank::withdraw(int val)
 {
 	if (val > coins)
 	{

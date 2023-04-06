@@ -1,10 +1,10 @@
 #pragma once
-enum class Couleur {
-	bleu = 0,
-	vert,
-	rouge,
+enum class Color {
+	blue = 0,
+	green,
+	red,
 	violet,
-	jaune
+	yellow
 };
 enum class Icon {
 	grain = 0,
